@@ -1,5 +1,5 @@
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 int main()
 {
 	char ch;
@@ -20,5 +20,5 @@ int main()
 	}
 	printf("Enter a Character that u want to know:");
 	scanf("%c", &ch);
-    printf("ASCII value of %c = %d", ch, ch);	//getch();
+    printf("ASCII value of %c = %d", ch, ch);	getch();
 }
